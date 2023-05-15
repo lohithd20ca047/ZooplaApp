@@ -1,0 +1,192 @@
+{
+  "result_count": 72567,
+  "area_name": "",
+  "listing": [
+    {
+      "rental_prices": {
+        "shared_occupancy": "N",
+        "per_week": 415,
+        "accurate": "per_month",
+        "per_month": 1800
+      },
+      "num_floors": "0",
+      "image_150_113_url": "https://lid.zoocdn.com/150/113/49145008bf188180e23102371e278fabe0500c8a.jpg",
+      "listing_status": "rent",
+      "num_bedrooms": "1",
+      "image_50_38_url": "https://lid.zoocdn.com/50/38/49145008bf188180e23102371e278fabe0500c8a.jpg",
+      "latitude": 51.515865,
+      "furnished_state": "furnished_or_unfurnished",
+      "agent_address": "10 Church Road, London",
+      "category": "Residential",
+      "property_type": "Flat",
+      "last_sale_date": "2006-10-05",
+      "longitude": -0.261527,
+      "brochure": [
+        "https://lc.zoocdn.com/9e7781017e74453fba5b374832a0998ec3c733f0.pdf"
+      ],
+      "listing_date": "2020-02-06 15:50:50",
+      "description": "<h3 class=\"listing-desc-header top\"><strong>Description</strong></h3><p class=\"top\">Welcome to your ideal home! This charming 1-bedroom ground floor garden flat is perfectly situated with excellent transport links just a 10-minute stroll away from Acton Main Line Station, offering convenient access to the Elizabeth line.<br><br>Step inside and discover a comfortable and well-appointed living space. The ground floor location ensures easy access and a seamless indoor-outdoor flow, with a private garden that provides a tranquil retreat to unwind and relax.<br><br>The flat comes fully furnished, allowing you to move in and settle right away. Enjoy the convenience of a thoughtfully designed space that caters to your needs, offering both comfort and functionality.<br><br>With its unbeatable location and exceptional transport links, you'll have effortless connections to various destinations. Explore the surrounding areas, indulge in local amenities, and make the most of everything this vibrant neighborhood has to offer.<br><br>Don't miss this fantastic opportunity to rent a beautiful 1-bedroom ground floor garden flat. Experience the perfect combination of comfort, convenience, and outdoor living. Contact us today to arrange a viewing and secure your new home.<br><br>Deposit: £1,730</p>",
+      "agent_postcode": "W3 8PP",
+      "post_town": "London",
+      "details_url": "https://www.zoopla.co.uk/to-rent/details/54180613?utm_source=v1:5bWFDybfWx7C7AGpeagt7mP3PgcqjuqJ&utm_medium=api",
+      "other_image": [
+        {
+          "url": "https://lid.zoocdn.com/645/430/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "description": ""
+        },
+        {
+          "url": "https://lid.zoocdn.com/645/430/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "description": ""
+        }
+      ],
+      "title": "1 bed flat to rent",
+      "county": "London",
+      "bullet": [
+        "Gas central heating",
+        "Newly Built",
+        "Private Garden",
+        "Spot lights",
+        "Wooden Floors",
+        "Zone 2"
+      ],
+      "image_80_60_url": "https://lid.zoocdn.com/80/60/49145008bf188180e23102371e278fabe0500c8a.jpg",
+      "property_number": "",
+      "num_recepts": "1",
+      "country": "England",
+      "street_name": "Flat B - 1 Friars Way",
+      "num_bathrooms": "1",
+      "agent_logo": "https://st.zoocdn.com/zoopla_static_agent_logo_(303453).png",
+      "price_change": [
+        {
+          "direction": "",
+          "date": "2023-05-15 00:41:39",
+          "percent": "0%",
+          "price": "415"
+        }
+      ],
+      "agent_phone": "020 8128 4947",
+      "group_id": 0,
+      "last_published_date": "2023-05-15 00:43:14",
+      "last_sale_price": 425000,
+      "country_code": "gb",
+      "view_count_30day": 0,
+      "location_is_approximate": 0,
+      "view_count": 0,
+      "branch_id": "64290",
+      "letting_fees": "The asking rent does not include letting fees. Depending on your circumstances and the property you select, the letting agent may also apply the following upfront fees:<br><ul><br><li>General administration fees</li><br><li>Reference fees (including credit checks, bank, guarantor, previous landlord, etc)</li><br><li>Application fees</li><br></ul>",
+      "images": [
+        {
+          "original": "https://lc.zoocdn.com/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/49145008bf188180e23102371e278fabe0500c8a.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/49145008bf188180e23102371e278fabe0500c8a.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg"
+        },
+        {
+          "original": "https://lc.zoocdn.com/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "480x360": "https://lid.zoocdn.com/480/360/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "354x255": "https://lid.zoocdn.com/354/255/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "645x430": "https://lid.zoocdn.com/645/430/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "80x60": "https://lid.zoocdn.com/80/60/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "768x576": "https://lid.zoocdn.com/768/576/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "150x113": "https://lid.zoocdn.com/150/113/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "1024x768": "https://lid.zoocdn.com/1024/768/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "caption": "",
+          "50x38": "https://lid.zoocdn.com/50/38/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg",
+          "240x180": "https://lid.zoocdn.com/240/180/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg"
+        }
+      ],
+      "thumbnail_url": "https://lid.zoocdn.com/80/60/49145008bf188180e23102371e278fabe0500c8a.jpg",
+      "short_description": "Introducing a delightful 1-bed ground floor flat with garden. Conveniently located near Acton Main Line Station, it offers easy access to the Elizabeth line. Fully furnished, this cosy space invites you to enjoy comfort and relaxation.",
+      "outcode": "W3",
+      "image_645_430_url": "https://lid.zoocdn.com/645/430/49145008bf188180e23102371e278fabe0500c8a.jpg",
+      "price": "415",
+      "available_from_display": "Available from 15th Jun 2023",
+      "is_premium_listing": 0,
+      "listing_id": "54180613",
+      "image_caption": "",
+      "status": "to_rent",
+      "agent_name": "Fairdeal Properties",
+      "property_badge": "Just added",
+      "company_id": 34167,
+      "displayable_address": "Friars Way, London W3",
+      "first_published_date": "2023-05-15 00:43:14",
+      "property_id": 25024294,
+      "floor_plan": [
+        "https://lc.zoocdn.com/82fbb3cb8dea65da73da8dd34becc87abf598c84.jpg"
+      ],
+      "incode": "6QF",
+      "featured_type": "S",
+      "image_354_255_url": "https://lid.zoocdn.com/354/255/49145008bf188180e23102371e278fabe0500c8a.jpg",
+      "image_url": "https://lid.zoocdn.com/645/430/49145008bf188180e23102371e278fabe0500c8a.jpg",
+      "original_image": [
+        "https://lc.zoocdn.com/49145008bf188180e23102371e278fabe0500c8a.jpg",
+        "https://lc.zoocdn.com/6a049a64947dba679395f12fcc6c3ddfb4125fbd.jpg",
+        "https://lc.zoocdn.com/493361f1de0fc333bdee9e9dffeb7074a28d5623.jpg",
+        "https://lc.zoocdn.com/1f26c38f4b2223a26439279d74cfc108dbfd1ef1.jpg",
+        "https://lc.zoocdn.com/57fca7f8c6d3e5687c3c0329fe22170caa6a0a5e.jpg"
+      ]
+    }
+   ],
+  "street": "",
+  "county": "",
+  "town": "",
+  "postcode": ""
+}
