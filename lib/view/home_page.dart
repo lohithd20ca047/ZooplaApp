@@ -12,52 +12,28 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  bool searching = false;
-  var searchTerm = <PropertyListing>[];
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: getSearchField()),
-      body: Container(
-        decoration: const BoxDecoration(
-            image: DecorationImage(
-                image: NetworkImage(
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aAlvXLZ-gJe5xhljLgpEJNbUqHiP1RF4EQ&usqp=CAU'),
-                fit: BoxFit.fitHeight)),
-        child: searching
-            ? const Center(child: CircularProgressIndicator())
-            : Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: getbody(searchTerm)),
-      ),
+      appBar: AppBar(title: Center(child: Text('ZOOPLA APP'))),
+      body:  getbody(),
     );
   }
-
-  Widget getSearchField() {
-    return TextField(
-      decoration: const InputDecoration(
-          icon: Icon(Icons.search),
-          hintText: 'SEARCH',
-          labelText: 'Search a Location'),
-      onSubmitted: (value) async {
-        setState(() {
-          searching = true;
-        });
-
-        searchTerm = await lisitingHomes(value);
-
-        setState(() {
-          searching = false;
-        });
-      },
-    );
+  Widget getbody() {
+    return FutureBuilder(future:lisitingHomes(),builder: (context, snapshot) {
+      if (!snapshot.hasData) {
+        return Center(child: CircularProgressIndicator());
+      }else{
+      return ListView(children:getListWidget(snapshot.data!));
+      } 
+    },);
   }
-
-  List<Widget> getbody(List<PropertyListing> propertyListing) {
+  List<Widget> getListWidget(List<PropertyListing> propertyListing){
     var widgets = <Widget>[];
-    for (var propertylist in propertyListing) {
-      var widget = PropertyWidget(propertyListing: propertylist);
+    for (var propertyList in propertyListing) {
+      var widget = PropertyWidget(propertyListing: propertyList);
       widgets.add(widget);
     }
     return widgets;

@@ -7,7 +7,7 @@ var headers = {
   'X-RapidAPI-Key': 'b396080d4bmsh95c5a42f117ae03p15b135jsnc62f0b3ce073',
   'X-RapidAPI-Host': 'zoopla.p.rapidapi.com'
 };
-
+String area = "area='Oxford,Oxfordshire'";
 String identifier = "identifier='oxford'";
 String category = "category='residential'";
 String order_by = "order_by='age'";
@@ -15,10 +15,10 @@ String ordering = "ordering='descending'";
 String page_number = "page_number='1'";
 String page_size = "page_size='40'";
 
-Future<List<PropertyListing>> lisitingHomes(String searchResult) async {
-  String area = "area='$searchResult'";
-  String zooplaUrlPath =
+String zooplaUrlPath =
       '$zooplaUrl?$area&$identifier&$category&$order_by&$ordering&$page_number&$page_size';
+
+Future<List<PropertyListing>> lisitingHomes() async {
   var homes = <PropertyListing>[];
   var dio = Dio();
   var response = await dio.get(zooplaUrlPath);
