@@ -1,5 +1,5 @@
-class ZooplaSearch {
-  ZooplaSearch({
+class SearchResult {
+  SearchResult({
     required this.resultCount,
     required this.areaName,
     required this.listing,
@@ -11,19 +11,20 @@ class ZooplaSearch {
 
   final int? resultCount;
   final String? areaName;
-  final List<Homes> listing;
+  final List<PropertyListing> listing;
   final String? street;
   final String? county;
   final String? town;
   final String? postcode;
 
-  factory ZooplaSearch.fromJson(Map<String, dynamic> json) {
-    return ZooplaSearch(
+  factory SearchResult.fromJson(Map<String, dynamic> json) {
+    return SearchResult(
       resultCount: json["result_count"],
       areaName: json["area_name"],
       listing: json["listing"] == null
           ? []
-          : List<Homes>.from(json["listing"]!.map((x) => Homes.fromJson(x))),
+          : List<PropertyListing>.from(
+              json["listing"]!.map((x) => PropertyListing.fromJson(x))),
       street: json["street"],
       county: json["county"],
       town: json["town"],
@@ -42,8 +43,8 @@ class ZooplaSearch {
       };
 }
 
-class Homes {
-  Homes({
+class PropertyListing {
+  PropertyListing({
     required this.lastSalePrice,
     required this.rentalPrices,
     required this.countryCode,
@@ -136,7 +137,7 @@ class Homes {
   final String? category;
   final String? propertyType;
   final DateTime? lastSaleDate;
-  final List<Image> images;
+  final List<ZooplaImage> images;
   final double? longitude;
   final DateTime? listingDate;
   final String? thumbnailUrl;
@@ -191,8 +192,8 @@ class Homes {
   final FloorArea? floorArea;
   final List<String> document;
 
-  factory Homes.fromJson(Map<String, dynamic> json) {
-    return Homes(
+  factory PropertyListing.fromJson(Map<String, dynamic> json) {
+    return PropertyListing(
       lastSalePrice: json["last_sale_price"],
       rentalPrices: json["rental_prices"] == null
           ? null
@@ -215,7 +216,8 @@ class Homes {
       lastSaleDate: DateTime.tryParse(json["last_sale_date"] ?? ""),
       images: json["images"] == null
           ? []
-          : List<Image>.from(json["images"]!.map((x) => Image.fromJson(x))),
+          : List<ZooplaImage>.from(
+              json["images"]!.map((x) => ZooplaImage.fromJson(x))),
       longitude: json["longitude"],
       listingDate: DateTime.tryParse(json["listing_date"] ?? ""),
       thumbnailUrl: json["thumbnail_url"],
@@ -417,8 +419,8 @@ class MaxFloorArea {
       };
 }
 
-class Image {
-  Image({
+class ZooplaImage {
+  ZooplaImage({
     required this.original,
     required this.the480X360,
     required this.the354X255,
@@ -444,8 +446,8 @@ class Image {
   final String? the50X38;
   final String? the240X180;
 
-  factory Image.fromJson(Map<String, dynamic> json) {
-    return Image(
+  factory ZooplaImage.fromJson(Map<String, dynamic> json) {
+    return ZooplaImage(
       original: json["original"],
       the480X360: json["480x360"],
       the354X255: json["354x255"],

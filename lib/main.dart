@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'view/app_theme.dart';
+import 'view/zoopla_app.dart';
 
 void main() {
-  runApp(const AppTheme());
+  runApp(const ZooplaApp());
 }
