@@ -21,7 +21,7 @@ String zooplaUrlPath =
 Future<List<PropertyListing>> lisitingHomes() async {
   var homes = <PropertyListing>[];
   var dio = Dio();
-  var response = await dio.get(zooplaUrlPath);
+  var response = await dio.get(zooplaUrlPath,options: Options(headers: headers));
   if (response.statusCode == 200) {
     var listOfDatas = response.data['listing'];
     for (var listOfData in listOfDatas) {

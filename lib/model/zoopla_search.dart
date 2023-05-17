@@ -403,7 +403,7 @@ class MaxFloorArea {
     required this.units,
   });
 
-  final String? value;
+  final num? value;
   final String? units;
 
   factory MaxFloorArea.fromJson(Map<String, dynamic> json) {
