@@ -57,9 +57,13 @@ class _PropertyWidgetState extends State<PropertyWidget> {
                   child: Icon(Icons.bathtub),
                 ),
                 Text('${widget.propertyListing.numBathrooms}'),
-                Padding(
-                  padding: const EdgeInsets.only(left: 150),
-                  child: Image.network(widget.propertyListing.agentLogo!),
+                Expanded(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Image.network(widget.propertyListing.agentLogo!),
+                    ],
+                  ),
                 )
               ],
             ),

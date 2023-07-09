@@ -16,12 +16,13 @@ String page_number = "page_number='1'";
 String page_size = "page_size='40'";
 
 String zooplaUrlPath =
-      '$zooplaUrl?$area&$identifier&$category&$order_by&$ordering&$page_number&$page_size';
+    '$zooplaUrl?$area&$identifier&$category&$order_by&$ordering&$page_number&$page_size';
 
 Future<List<PropertyListing>> lisitingHomes() async {
   var homes = <PropertyListing>[];
   var dio = Dio();
-  var response = await dio.get(zooplaUrlPath,options: Options(headers: headers));
+  var response =
+      await dio.get(zooplaUrlPath, options: Options(headers: headers));
   if (response.statusCode == 200) {
     var listOfDatas = response.data['listing'];
     for (var listOfData in listOfDatas) {

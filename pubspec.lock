@@ -216,6 +216,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+  native_webview:
+    dependency: "direct main"
+    description:
+      name: native_webview
+      sha256: "3e9ece52d8862237fcdce92cbfbbfd285ae171d82e9dea9aff8bd934287796c6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
   path:
     dependency: transitive
     description:

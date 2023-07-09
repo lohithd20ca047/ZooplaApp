@@ -403,12 +403,12 @@ class MaxFloorArea {
     required this.units,
   });
 
-  final String? value;
+  final double? value;
   final String? units;
 
   factory MaxFloorArea.fromJson(Map<String, dynamic> json) {
     return MaxFloorArea(
-      value: json["value"],
+      value: json[double.tryParse("value")],
       units: json["units"],
     );
   }
@@ -517,7 +517,7 @@ class PriceChange {
       direction: json["direction"],
       date: DateTime.tryParse(json["date"] ?? ""),
       percent: json["percent"],
-      price: json["price"],
+      price: json["price"].toString(),
     );
   }
 

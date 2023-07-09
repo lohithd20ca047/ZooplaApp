@@ -12,25 +12,28 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Center(child: Text('ZOOPLA APP'))),
-      body:  getbody(),
+      appBar: AppBar(title: const Center(child: Text('ZOOPLA APP'))),
+      body: getbody(),
     );
   }
+
   Widget getbody() {
-    return FutureBuilder(future:lisitingHomes(),builder: (context, snapshot) {
-      if (!snapshot.hasData) {
-        return Center(child: CircularProgressIndicator());
-      }else{
-      return ListView(children:getListWidget(snapshot.data!));
-      } 
-    },);
+    return FutureBuilder(
+      future: lisitingHomes(),
+      builder: (context, snapshot) {
+        if (!snapshot.hasData) {
+          return const Center(child: CircularProgressIndicator());
+        } else {
+          return ListView(children: getListWidget(snapshot.data!));
+        }
+      },
+    );
   }
-  List<Widget> getListWidget(List<PropertyListing> propertyListing){
+
+  List<Widget> getListWidget(List<PropertyListing> propertyListing) {
     var widgets = <Widget>[];
     for (var propertyList in propertyListing) {
       var widget = PropertyWidget(propertyListing: propertyList);
